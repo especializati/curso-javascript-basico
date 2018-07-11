@@ -99,7 +99,7 @@ console.log(name + ' ' + age);
 
 
 // Lógicos
-var n1 = 12;
+// var n1 = 12;
 // console.log(typeof n1 == "number" && n1 == 123);
 // console.log(typeof n1 == "number" || n1 == 123);
-console.log(!n1 == 14);
+// console.log(!n1 == 14);
