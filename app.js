@@ -51,5 +51,55 @@ console.log(name + ' ' + age);
 
 
 //************************************************************
-//********************** Exemplo 04 **************************
-//****** Operadores Aritméticos
+//********************** Operadores **************************
+// Aritméticos:
+// var n1 = 12;
+// var n2 = 4;
+// console.log(n1 + n2 + 4);
+// console.log(n1 - n2 - 2);
+// console.log(n1 * n2);
+// console.log(n1 / n2);
+// console.log(4 ** 3);
+
+// console.log((4 - 3 + 2) * 2);
+// console.log((4 - 2 + 2) / 2);
+// console.log(((4 - 2 + 2) / 2 + 2) * 3);
+
+// console.log(n1++);
+// console.log(n1);
+// console.log(++n1);
+
+// console.log(n1--);
+// console.log(n1);
+// console.log(--n1);
+
+// console.log(2 % 2);
+
+
+// Atribuição:
+// var n1 = 12;
+// var n2 = n1;
+
+// n1 += 1;
+// n1 -= 7;
+// n1 *= 2;
+// n1 /= 2;
+// console.log(n1);
+
+
+// Comparação:
+// console.log("Carlos" == "Carlos");
+// console.log(2 === '2');
+// console.log(2 != 3);
+// console.log(2 !== 2);
+// console.log(4 > 3);
+// console.log(2 < 3);
+// console.log(5 >= 4);
+// console.log(4 <= 4);
+
+
+// Lógicos
+var n1 = 12;
+// console.log(typeof n1 == "number" && n1 == 123);
+// console.log(typeof n1 == "number" || n1 == 123);
+console.log(!n1 == 14);
