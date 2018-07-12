@@ -103,3 +103,82 @@ console.log(name + ' ' + age);
 // console.log(typeof n1 == "number" && n1 == 123);
 // console.log(typeof n1 == "number" || n1 == 123);
 // console.log(!n1 == 14);
+
+
+
+
+//************************************************************
+//************** Operadores Condicionais *********************
+// IF e ELSE:
+// var number = false;
+
+// if (number)
+//     console.log("É verdadeiro!");
+
+// if (2 == 2 && 3 === "3") {
+//     console.log('****************************');
+//     console.log("2 é igual a 2");
+//     console.log('****************************');
+// }
+
+// if (4 === 4) {
+//     console.log('****************************');
+//     console.log("É igual");
+//     console.log('****************************');
+// } else {
+//     console.log("É diferente!");
+// }
+
+
+// Operador condicional (ternário)
+// var age = 17;
+// var text = '';
+
+// if (age >= 18)
+//     text = 'É maior de idade!';
+// else
+//     text = 'É menor de idade!';
+// text = (age >= 18) ? 'É maior de idade!' : 'É menor de idade!';
+// console.log(text);
+
+
+// Switch:
+var number = 3;
+var result = '';
+
+// if (number == 1) {
+//     result = 'Um';
+// } else if (number == 2) {
+//     result = 'Dois';
+// } else if (number == 3) {
+//     result = 'Três';
+// } else if (number == 4) {
+//     result = 'Quatro';
+// } else if (number == 5) {
+//     result = 'Cinco';
+// } else {
+//     result = 'Opção não encontrada!';
+// }
+
+// switch (number) {
+//     case 1:
+//         result = 'Um';
+//         break;
+//     case 2:
+//         result = 'Dois';
+//         break;
+//     case 3:
+//         result = 'Três';
+//         break;
+//     case 4:
+//         result = 'Quatro';
+//         break;
+//     case 5:
+//         result = 'Cinco';
+//         break;
+
+//     default:
+//         result = 'Opção não encontrada!';
+//         break;
+// }
+// console.log(result);
