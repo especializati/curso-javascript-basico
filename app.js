@@ -182,3 +182,69 @@ var result = '';
 //         break;
 // }
 // console.log(result);
+
+
+
+//************************************************************
+//*********************** Funções ****************************
+// Basic:
+// function showLog () {
+//     console.log('************************************');
+//     console.log('**************Algo******************');
+//     console.log('************************************');
+// }
+// showLog();
+
+
+// Funções com Parâmetros:
+// var n1 = 2;
+// var n2 = 4;
+// // var result = ((n1 + n2) * 6) / 2;
+
+// function calc(num1, num2) {
+//     console.log("Start da função");
+
+//     return ((num1 + num2) * 6) / 2;
+
+//     console.log("Fim da função");
+// }
+
+// console.log(calc(n1, n2));
+// console.log(calc(4, 6));
+
+
+// Parâmetros Opcionais
+// function calc(n1, n2, n3) {
+//     // if (n3 == undefined) n3 = 2;
+//     n3 = (n3 == undefined) ? 2 : n3;
+
+//     return ((n1 + n2) * 6) / n3;
+// }
+// console.log(calc(2, 4));
+
+
+// Funções Recursivas:
+// var number = 20;
+
+// function recursiva(n) {
+//     console.log(n);
+
+//     if (n > 0)
+//         return recursiva(n - 1)
+// }
+// recursiva(number);
+
+
+// Funções aninhadas:
+// function aninhadas (n1, n2, n3) {
+//     function calc (n) {
+//         return n * n3;
+//     }
+
+//     return calc(n1) + calc(n2);
+// }
+
+// function dobra(n) {
+//     return n * 2;
+// }
+// console.log(aninhadas(2, 4, 4));
