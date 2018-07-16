@@ -248,3 +248,110 @@ var result = '';
 //     return n * 2;
 // }
 // console.log(aninhadas(2, 4, 4));
+
+
+
+//************************************************************
+//*********************** Arrays *****************************
+// Definir Arrays:
+// var names = ['Carlos', 'Ferreira', 'EspecializaTi', 'Cursos', 'Eti', 'Online'];
+// var names = new Array('Carlos', 'Ferreira', 'EspecializaTi', 'Cursos', 'Eti', 'Online');
+// var names = new Array(6);
+// var names = [];
+// console.log(names.length);
+
+// var names = [
+//     "Carlos",
+//     "EspecializaTi",
+// ];
+// var numbers = [3,5,4,1,2];
+
+// Manipulação de Array, ex1 (push, unshift, pop, shift):
+// console.log(names[0]);
+// names[0] = "Carlos Ferreira";
+// console.log(names[2]);
+// console.log(names);
+// names.push("Cursos");
+// console.log(names);
+
+// names.unshift("Eti");
+// names.unshift("Start");
+// console.log(names);
+
+// names.pop();
+// console.log(names);
+
+// names.shift();
+// console.log(names);
+
+
+// Manipulação de Array, ex2 (join, reverse, sort):
+// console.log(names.join(' - '));
+// console.log(numbers.reverse());
+// console.log(numbers.sort());
+/* console.log(numbers.sort(function (val1, val2) {
+    return val1 < val2;
+})); */
+
+
+// Manipulação de Array, ex3 (indexOf, lastIndexOf, findIndex):
+// console.log(names.indexOf("EspecializaTi"));
+// console.log(numbers.lastIndexOf(4));
+// var n = 5;
+// var result = numbers.findIndex(function (item) {
+//     return item == n;
+// });
+// console.log(result);
+
+
+// Manipulação de Array, ex4 (concat, slice, toString):
+// console.log(names.concat(numbers));
+// numbers.sort();
+// console.log(numbers);
+// console.log(numbers.slice(2, numbers.length));
+// console.log(numbers.toString());
+
+
+// Manipulação de Array, ex5 (map, filter):
+// console.log(names);
+// var result = names.map(function (item) {
+//     return item.toUpperCase();
+// });
+// console.log(result);
+
+// console.log(numbers);
+// result = numbers.map(function (value) {
+//     return value * 2;
+// });
+// console.log(result);
+
+// result = numbers.filter(function (item) {
+//     return item == 9 || item == 3 || item == 1;
+// });
+// console.log(result);
+
+
+
+// Manipulação de Array, ex6 (every, some):
+// var result = numbers.every(function (value) {
+//     return value >= 1 && value <=5;
+// });
+// console.log(result);
+
+// var result = numbers.some(function (value) {
+//     return value >= 5;
+// });
+// console.log(result);
+
+
+
+// Manipulação de Array, ex7 (reduce, reduceRight):
+// var result = numbers.reduce(function (previousValue, currentValue, currentIndex, items) {
+//     return previousValue + currentValue;
+// });
+// console.log(result);
+
+// result = numbers.reduceRight(function (previousValue, currentValue, currentIndex, items) {
+//     return previousValue + currentValue;
+// });
+// console.log(result);
