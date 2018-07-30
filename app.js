@@ -450,3 +450,19 @@ var result = '';
 // });
 
 // console.log('Depois');
+
+
+
+//************************************************************
+//******************** localStorage **************************
+
+// localStorage.setItem('NAME', 'Carlos Ferreira');
+// localStorage.setItem('cart', [1,2,3,4,5]);
+
+// console.log(localStorage.getItem('NAME'));
+
+// console.log(localStorage.getItem('NAME') !== null);
+// console.log(localStorage.hasOwnProperty('NAME'));
+
+// localStorage.removeItem('cart');
+// localStorage.clear();
