@@ -466,3 +466,12 @@ var result = '';
 
 // localStorage.removeItem('cart');
 // localStorage.clear();
+
+// Ex: 2
+// if (localStorage.hasOwnProperty('USER')) {
+//     var name = localStorage.getItem('USER');
+//     alert('Olá ' + name + '!');
+// } else {
+//     var name = prompt('Qual o seu nome?');
+//     localStorage.setItem('USER', name);
+// }
