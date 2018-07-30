@@ -355,3 +355,36 @@ var result = '';
 //     return previousValue + currentValue;
 // });
 // console.log(result);
+
+
+
+
+//************************************************************
+//********************** Objetos *****************************
+
+// var name = 'Carlos';
+
+// var carlos = {
+//     name: name,
+//     lastName: 'Ferreira',
+
+//     fullName: function () {
+//         return this.name + ' ' + this.lastName;
+//     },
+
+//     fullNameTwo: function (separetor) {
+//         return this.name + separetor + this.lastName;
+//     },
+// };
+// console.log(carlos.fullName());
+// carlos.name = 'Other';
+// console.log(carlos.fullName());
+// console.log(carlos.fullNameTwo(' - '));
+
+
+// Ex 2 (Objetcs):
+// var person = new Object();
+// person.name = 'Carlos';
+// person.lastName = 'Ferreira';
+// person.fullName = person.name + ' ' + person.lastName;
+// console.log(person['fullName']);
