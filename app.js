@@ -388,3 +388,65 @@ var result = '';
 // person.lastName = 'Ferreira';
 // person.fullName = person.name + ' ' + person.lastName;
 // console.log(person['fullName']);
+
+
+
+//************************************************************
+//*********************** Loops ******************************
+// var cars = [
+//     {name: 'Car 1', year: 2000},
+//     {name: 'Car 2', year: 2001},
+//     {name: 'Car 3', year: 2002},
+//     {name: 'Car 4', year: 2003},
+//     {name: 'Car 5', year: 2004},
+//     {name: 'Car 6', year: 2005},
+// ];
+// console.log('Antes');
+
+// console.log(cars[0].name);
+// console.log(cars[1].name);
+// console.log(cars[2].name);
+// console.log(cars[3].name);
+// console.log(cars[4].name);
+
+// FOR:
+// for (var index = 0; index < cars.length; index++) {
+//     var result = 'Carro: ' + cars[index].name + ', ano: ' + cars[index].year;
+//     console.log(result);
+// }
+
+// WHILE
+// var i = 0;
+// while (i < cars.length) {
+//     var result = 'Carro: ' + cars[i].name + ', ano: ' + cars[i].year;
+//     console.log(result);
+
+//     i++;
+// }
+// var i = cars.length - 1;
+// while (i >= 0) {
+//     var result = 'Carro: ' + cars[i].name + ', ano: ' + cars[i].year;
+//     console.log(result);
+
+//     i--;
+// }
+
+
+// DO WHILE:
+// var i = 90;
+
+// do {
+//     console.log(i);
+
+//     i++;
+// } while (i <= 10);
+
+
+
+// FOREACH
+// cars.forEach(function (element, index, array) {
+//     var result = 'Carro: ' + element.name + ', ano: ' + element.year;
+//     console.log(result);
+// });
+
+// console.log('Depois');
