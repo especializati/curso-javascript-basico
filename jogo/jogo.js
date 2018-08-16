@@ -1,8 +1,10 @@
-var random = Math.floor(Math.random() * 10);
+var random = 0;
 var plays = 1;
 var number = 0;
 
-play();
+generateRandom();
+
+// play();
 function play() {
     number = prompt(plays + 'º Tentativa, adivinhe o número:');
 
@@ -14,11 +16,25 @@ function checkResult() {
 
     if (number == random) {
         alert('Acertou. Parabéns!!!');
+
+        resetGame();
     } else if (plays >= 3) {
         alert('Game Over');
+
+        resetGame();
     } else {
         plays ++;
 
         play();
     }
+}
+
+function generateRandom() {
+    random = Math.floor(Math.random() * 10);
+}
+
+function resetGame () {
+    plays = 1;
+
+    generateRandom();
 }
